@@ -4,14 +4,14 @@ const players = [
         lastName: 'Allen',
         position: 'QB',
         age: 28,
-        photo: 'https://picsum.photos/200'
+        photo: '/imgs/joshallen.png'
     },
     {
-        firstName: 'Josh',
-        lastName: 'Allen',
-        position: 'QB',
+        firstName: 'James',
+        lastName: 'Cook',
+        position: 'RB',
         age: 28,
-        photo: 'https://picsum.photos/200'
+        photo: '/imgs/jamescook.png'
     }, {
         firstName: 'Josh',
         lastName: 'Allen',
