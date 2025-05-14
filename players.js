@@ -55,6 +55,14 @@ const players = [
         hiddenDetail: 'Former 3rd round pick in 2020'
       },
       {
+        firstName: 'Reggie',
+        lastName: 'Gilliam',
+        position: 'FB',
+        age: 26,
+        photo: '/imgs/reggie.png',
+        college: 'Toledo'
+      },
+      {
         firstName: 'Khalil',
         lastName: 'Shakir',
         position: 'WR',
@@ -85,6 +93,14 @@ const players = [
         age: 21,
         photo: '/imgs/keon.png',
         college: 'Florida State'
+      },
+      {
+        firstName: 'Curtis',
+        lastName: 'Samuel',
+        position: 'WR',
+        age: 23,
+        photo: '/imgs/curt.png',
+        college: 'Unknown'
       },
     
       // Tight Ends
@@ -139,22 +155,13 @@ const players = [
         college: 'Northern Iowa'
       },
       {
-        firstName: 'Curtis',
-        lastName: 'Patrick',
+        firstName: 'O’Cyrus',
+        lastName: 'Torrence',
         position: 'OL',
         age: 23,
-        photo: '/imgs/curt.png',
-        college: 'Unknown'
+        photo: '/imgs/ocyrus.png',
+        college: 'Florida'
       },
-      {
-        firstName: 'Mitch',
-        lastName: 'Morse',
-        position: 'OL',
-        age: 32,
-        photo: '/imgs/mitch.png',
-        college: 'Missouri'
-      },
-    
       // Defensive Line
       {
         firstName: 'Greg',
@@ -195,14 +202,6 @@ const players = [
         age: 29,
         photo: '/imgs/joeybosa.png',
         college: 'Ohio State'
-      },
-      {
-        firstName: 'O’Cyrus',
-        lastName: 'Torrence',
-        position: 'DL',
-        age: 23,
-        photo: '/imgs/ocyrus.png',
-        college: 'Florida'
       },
     
       // Linebackers
@@ -247,14 +246,6 @@ const players = [
         age: 28,
         photo: '/imgs/taronjohnson.png',
         college: 'Weber State'
-      },
-      {
-        firstName: 'Reggie',
-        lastName: 'Gilliam',
-        position: 'CB',
-        age: 26,
-        photo: '/imgs/reggie.png',
-        college: 'Toledo'
       },
       {
         firstName: 'Maxwell',
