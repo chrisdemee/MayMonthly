@@ -7,7 +7,7 @@
     backface-visibility: hidden;
     vertical-align: middle;
     position:relative;
-    box-shadow: 0 0 1px rgba(0,0,0,0);
+    box-shadow: 0 0 1px rgba(212, 37, 13, 0);
     tranform: translateZ(0);
     transition-duration: .3s;
     transition-property:transform;
@@ -23,8 +23,8 @@
     height:10px;
     width:90%;
     opacity:0;
-    background: -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
-    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(255, 255, 255, 0) 80%);
+    background: -webkit-radial-gradient(center, ellipse, rgba(255, 255, 255, 0.35) 0%, rgba(24, 21, 212, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.35) 0%, rgba(12, 31, 199, 0) 80%);
     /* W3C */
     transition-duration: 0.3s;
     transition-property: transform, opacity;

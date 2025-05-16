@@ -19,7 +19,7 @@ const players = [
         lastName: 'Buechele',
         position: 'QB',
         age: 27,
-        photo: '/imgs/shanebuechele.png',
+        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039034.png&w=350&h=254',
         hiddenDetail: 'Signed as a free agent in 2024'
       },
 
@@ -27,7 +27,7 @@ const players = [
         firstName: 'James',
         lastName: 'Cook',
         position: 'RB',
-        age: 28,
+        age: 25,
         photo: '/imgs/jamescook.png'
     }, 
     {
@@ -36,7 +36,7 @@ const players = [
         position: 'RB',
         age: 25,
         photo: '/imgs/raydavis.png',
-        hiddenDetail: 'Drafted in 2024 from Kentucky'
+        college: 'Kentucky'
       },
       {
         firstName: 'Ty',
@@ -44,15 +44,15 @@ const players = [
         position: 'RB',
         age: 27,
         photo: '/imgs/tyjohnson.png',
-        hiddenDetail: 'Ran track at Maryland'
+        college: 'Maryland'
       },
       {
         firstName: 'Darrynton',
         lastName: 'Evans',
         position: 'RB',
         age: 26,
-        photo: '/imgs/darryntonevans.png',
-        hiddenDetail: 'Former 3rd round pick in 2020'
+        photo: 'https://a.espncdn.com/i/headshots/nfl/players/full/4036431.png',
+        college: 'Appalachian State'
       },
       {
         firstName: 'Reggie',
@@ -79,18 +79,18 @@ const players = [
         college: 'Tennessee'
       },
       {
-        firstName: 'Ty',
-        lastName: 'Johnson',
+        firstName: 'Elijah',
+        lastName: 'Moore',
         position: 'WR',
-        age: 26,
-        photo: '/imgs/tyjohnson.png',
-        college: 'Maryland'
+        age: 25,
+        photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4372414.png',
+        college: 'Ole Miss'
       },
       {
         firstName: 'Keon',
         lastName: 'Coleman',
         position: 'WR',
-        age: 21,
+        age: 22,
         photo: '/imgs/keon.png',
         college: 'Florida State'
       },
@@ -98,7 +98,7 @@ const players = [
         firstName: 'Curtis',
         lastName: 'Samuel',
         position: 'WR',
-        age: 23,
+        age: 28,
         photo: '/imgs/curt.png',
         college: 'Unknown'
       },
@@ -175,7 +175,7 @@ const players = [
         firstName: 'DaQuan',
         lastName: 'Jones',
         position: 'DL',
-        age: 32,
+        age: 33,
         photo: '/imgs/daquanjones.png',
         college: 'Penn State'
       },
@@ -183,7 +183,7 @@ const players = [
         firstName: 'Ed',
         lastName: 'Oliver',
         position: 'DL',
-        age: 26,
+        age: 27,
         photo: '/imgs/edoliver.png',
         college: 'Houston'
       },
