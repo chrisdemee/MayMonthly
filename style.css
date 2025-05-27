@@ -73,6 +73,12 @@
   .bounce {
     animation-name: bounce-animation;
     animation-duration: 2s;
-  }
-  
-  
+.red-row {
+  background-color: #d9534f !important; /* red */
+  color: white !important;
+}
+
+.blue-row {
+  background-color: #0275d8 !important; /* blue */
+  color: white !important;
+}

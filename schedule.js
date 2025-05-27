@@ -10,8 +10,8 @@ const schedule = [
   { week: 9, opponent: "Kansas City Chiefs", date: "11-02-2025", location: "Home" },
   { week: 10, opponent: "Miami Dolphins", date: "11-09-2025", location: "Away" },
   { week: 11, opponent: "Tampa Bay Buccaneers", date: "11-16-2025", location: "Home" },
-  { week: 12, opponent: "New York Jets", date: "11-20-2025", location: "Away" },
-  { week: 13, opponent: "New York Jets", date: "11-30-2025", location: "Away" },
+  { week: 12, opponent: "Houston Texans", date: "11-20-2025", location: "Away" },
+  { week: 13, opponent: "Pittsburgh Steelers", date: "11-30-2025", location: "Away" },
   { week: 14, opponent: "Cincinnati Bengals", date: "12-07-2025", location: "Home" },
   { week: 15, opponent: "New England Patriots", date: "12-14-2025", location: "Away" },
   { week: 16, opponent: "Cleveland Browns", date: "12-21-2025", location: "Away" },
@@ -23,16 +23,24 @@ function renderSchedule() {
   const tableBody = document.getElementById("schedule-body");
   tableBody.innerHTML = "";
 
-  schedule.forEach(game => {
+  schedule.forEach((game, index) => {
     const tr = document.createElement("tr");
+
+    // Alternate row color: even = red, odd = blue
+   const rowClass = index % 2 === 0 ? "red-row" : "blue-row";
+
+    tr.className = rowClass;
+
     tr.innerHTML = `
       <td>Week ${game.week}</td>
       <td>${game.opponent}</td>
-      <td>${new Date(game.date).toLocaleDateString()}</td>
-      <td>${game.location}</td>
+      <td>${game.date ? new Date(game.date).toLocaleDateString() : "TBD"}</td>
+      <td>${game.location || "TBD"}</td>
     `;
+
     tableBody.appendChild(tr);
   });
 }
+
 
 document.addEventListener("DOMContentLoaded", renderSchedule);
