@@ -4,7 +4,8 @@ const players = [
         lastName: 'Allen',
         position: 'QB',
         age: 28,
-        photo: '/imgs/joshallen.png'
+        photo: '/imgs/joshallen.png',
+        hiddenDetail: 'Former 2nd overall pick in 2017'
     },
     {
         firstName: 'Mitchell',
@@ -28,7 +29,8 @@ const players = [
         lastName: 'Cook',
         position: 'RB',
         age: 25,
-        photo: '/imgs/jamescook.png'
+        photo: '/imgs/jamescook.png',
+        hiddenDetail: 'Former 2nd overall pick in 2017'
     }, 
     {
         firstName: 'Ray',
@@ -36,7 +38,7 @@ const players = [
         position: 'RB',
         age: 25,
         photo: '/imgs/raydavis.png',
-        college: 'Kentucky'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Ty',
@@ -44,7 +46,7 @@ const players = [
         position: 'RB',
         age: 27,
         photo: '/imgs/tyjohnson.png',
-        college: 'Maryland'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Darrynton',
@@ -52,7 +54,7 @@ const players = [
         position: 'RB',
         age: 26,
         photo: 'https://a.espncdn.com/i/headshots/nfl/players/full/4036431.png',
-        college: 'Appalachian State'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Reggie',
@@ -60,7 +62,7 @@ const players = [
         position: 'FB',
         age: 26,
         photo: '/imgs/reggie.png',
-        college: 'Toledo'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Khalil',
@@ -68,7 +70,7 @@ const players = [
         position: 'WR',
         age: 24,
         photo: '/imgs/khalilshakir.png',
-        college: 'Boise State'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Josh',
@@ -76,7 +78,7 @@ const players = [
         position: 'WR',
         age: 25,
         photo: '/imgs/joshpalmer.png',
-        college: 'Tennessee'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Elijah',
@@ -84,7 +86,7 @@ const players = [
         position: 'WR',
         age: 25,
         photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4372414.png',
-        college: 'Ole Miss'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Keon',
@@ -92,7 +94,7 @@ const players = [
         position: 'WR',
         age: 22,
         photo: '/imgs/keon.png',
-        college: 'Florida State'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Curtis',
@@ -100,7 +102,7 @@ const players = [
         position: 'WR',
         age: 28,
         photo: '/imgs/curt.png',
-        college: 'Unknown'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
     
       // Tight Ends
@@ -110,7 +112,7 @@ const players = [
         position: 'TE',
         age: 27,
         photo: '/imgs/dawsonknox.png',
-        college: 'Ole Miss'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Dalton',
@@ -118,7 +120,7 @@ const players = [
         position: 'TE',
         age: 24,
         photo: '/imgs/dalton.png',
-        college: 'Utah'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
     
       // Offensive Line
@@ -128,7 +130,7 @@ const players = [
         position: 'OL',
         age: 26,
         photo: '/imgs/connormcgovern.png',
-        college: 'Penn State'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'David',
@@ -136,7 +138,7 @@ const players = [
         position: 'OL',
         age: 27,
         photo: '/imgs/davidedwards.png',
-        college: 'Wisconsin'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Dion',
@@ -144,7 +146,7 @@ const players = [
         position: 'OL',
         age: 29,
         photo: '/imgs/dion.png',
-        college: 'Temple'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Spencer',
@@ -152,7 +154,7 @@ const players = [
         position: 'OL',
         age: 26,
         photo: '/imgs/spencerbrown.png',
-        college: 'Northern Iowa'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'O’Cyrus',
@@ -160,7 +162,7 @@ const players = [
         position: 'OL',
         age: 23,
         photo: '/imgs/ocyrus.png',
-        college: 'Florida'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       // Defensive Line
       {
@@ -169,7 +171,7 @@ const players = [
         position: 'DL',
         age: 24,
         photo: '/imgs/gregrousseau.png',
-        college: 'Miami'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'DaQuan',
@@ -177,7 +179,7 @@ const players = [
         position: 'DL',
         age: 33,
         photo: '/imgs/daquanjones.png',
-        college: 'Penn State'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Ed',
@@ -185,7 +187,7 @@ const players = [
         position: 'DL',
         age: 27,
         photo: '/imgs/edoliver.png',
-        college: 'Houston'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'A.J.',
@@ -193,7 +195,7 @@ const players = [
         position: 'DL',
         age: 25,
         photo: '/imgs/ajepenesa.png',
-        college: 'Iowa'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Joey',
@@ -201,7 +203,7 @@ const players = [
         position: 'DL',
         age: 29,
         photo: '/imgs/joeybosa.png',
-        college: 'Ohio State'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
     
       // Linebackers
@@ -211,7 +213,7 @@ const players = [
         position: 'LB',
         age: 30,
         photo: '/imgs/mattmilano.png',
-        college: 'Boston College'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Dorian',
@@ -219,7 +221,7 @@ const players = [
         position: 'LB',
         age: 23,
         photo: '/imgs/dorianwilliams.png',
-        college: 'Tulane'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Terrel',
@@ -227,7 +229,7 @@ const players = [
         position: 'LB',
         age: 24,
         photo: '/imgs/terrelbernard.png',
-        college: 'Baylor'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
     
       // Cornerbacks
@@ -237,7 +239,7 @@ const players = [
         position: 'CB',
         age: 24,
         photo: '/imgs/christianbenford.png',
-        college: 'Villanova'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Taron',
@@ -245,7 +247,7 @@ const players = [
         position: 'CB',
         age: 28,
         photo: '/imgs/taronjohnson.png',
-        college: 'Weber State'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Maxwell',
@@ -253,7 +255,7 @@ const players = [
         position: 'CB',
         age: 22,
         photo: '/imgs/maxwellhairston.png',
-        college: 'Kentucky'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
     
       // Safeties
@@ -263,7 +265,7 @@ const players = [
         position: 'S',
         age: 26,
         photo: '/imgs/damarhamlin.png',
-        college: 'Pittsburgh'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Taylor',
@@ -271,7 +273,7 @@ const players = [
         position: 'S',
         age: 27,
         photo: '/imgs/taylorrapp.png',
-        college: 'Washington'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Cole',
@@ -279,7 +281,7 @@ const players = [
         position: 'S',
         age: 22,
         photo: '/imgs/colebishop.png',
-        college: 'Utah'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
     
       // Special Teams
@@ -289,7 +291,7 @@ const players = [
         position: 'K',
         age: 27,
         photo: '/imgs/tylerbass.png',
-        college: 'Georgia Southern'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
         firstName: 'Jake',
@@ -297,7 +299,7 @@ const players = [
         position: 'P',
         age: 26,
         photo: '/imgs/jakecamarda.png',
-        college: 'Georgia'
+        hiddenDetail: 'Former 2nd overall pick in 2017'
       }
       
 ]
