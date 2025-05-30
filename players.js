@@ -1,13 +1,15 @@
 const players = [
     {
+      id: '1',
         firstName: 'Josh',
         lastName: 'Allen',
         position: 'QB',
         age: 28,
         photo: '/imgs/joshallen.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'MVPPPPPPPPPPPPPPP'
     },
     {
+       id: '2',
         firstName: 'Mitchell',
         lastName: 'Trubisky',
         position: 'QB',
@@ -16,6 +18,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '3',
         firstName: 'Shane',
         lastName: 'Buechele',
         position: 'QB',
@@ -25,6 +28,7 @@ const players = [
       },
 
     {
+       id: '4',
         firstName: 'James',
         lastName: 'Cook',
         position: 'RB',
@@ -33,6 +37,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
     }, 
     {
+       id: '5',
         firstName: 'Ray',
         lastName: 'Davis',
         position: 'RB',
@@ -41,6 +46,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+        id: '6',
         firstName: 'Ty',
         lastName: 'Johnson',
         position: 'RB',
@@ -49,6 +55,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '7',
         firstName: 'Darrynton',
         lastName: 'Evans',
         position: 'RB',
@@ -57,6 +64,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '8',
         firstName: 'Reggie',
         lastName: 'Gilliam',
         position: 'FB',
@@ -65,6 +73,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '9 ',
         firstName: 'Khalil',
         lastName: 'Shakir',
         position: 'WR',
@@ -73,6 +82,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '10',
         firstName: 'Josh',
         lastName: 'Palmer',
         position: 'WR',
@@ -81,6 +91,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '11',
         firstName: 'Elijah',
         lastName: 'Moore',
         position: 'WR',
@@ -89,6 +100,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '12',
         firstName: 'Keon',
         lastName: 'Coleman',
         position: 'WR',
@@ -97,6 +109,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '13',
         firstName: 'Curtis',
         lastName: 'Samuel',
         position: 'WR',
@@ -107,6 +120,7 @@ const players = [
     
       // Tight Ends
       {
+         id: '14',
         firstName: 'Dawson',
         lastName: 'Knox',
         position: 'TE',
@@ -115,6 +129,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '15',
         firstName: 'Dalton',
         lastName: 'Kincaid',
         position: 'TE',
@@ -125,6 +140,7 @@ const players = [
     
       // Offensive Line
       {
+         id: '16',
         firstName: 'Connor',
         lastName: 'McGovern',
         position: 'OL',
@@ -133,6 +149,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '17',
         firstName: 'David',
         lastName: 'Edwards',
         position: 'OL',
@@ -141,6 +158,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '18',
         firstName: 'Dion',
         lastName: 'Dawkins',
         position: 'OL',
@@ -149,6 +167,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '19',
         firstName: 'Spencer',
         lastName: 'Brown',
         position: 'OL',
@@ -157,6 +176,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '20',
         firstName: 'O’Cyrus',
         lastName: 'Torrence',
         position: 'OL',
@@ -166,6 +186,7 @@ const players = [
       },
       // Defensive Line
       {
+         id: '21',
         firstName: 'Greg',
         lastName: 'Rousseau',
         position: 'DL',
@@ -174,6 +195,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '22',
         firstName: 'DaQuan',
         lastName: 'Jones',
         position: 'DL',
@@ -182,6 +204,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '23',
         firstName: 'Ed',
         lastName: 'Oliver',
         position: 'DL',
@@ -190,6 +213,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '24',
         firstName: 'A.J.',
         lastName: 'Epenesa',
         position: 'DL',
@@ -198,6 +222,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '25',
         firstName: 'Joey',
         lastName: 'Bosa',
         position: 'DL',
@@ -208,6 +233,7 @@ const players = [
     
       // Linebackers
       {
+         id: '26',
         firstName: 'Matt',
         lastName: 'Milano',
         position: 'LB',
@@ -216,6 +242,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '27',
         firstName: 'Dorian',
         lastName: 'Williams',
         position: 'LB',
@@ -224,6 +251,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '28',
         firstName: 'Terrel',
         lastName: 'Bernard',
         position: 'LB',
@@ -234,6 +262,7 @@ const players = [
     
       // Cornerbacks
       {
+         id: '29',
         firstName: 'Christian',
         lastName: 'Benford',
         position: 'CB',
@@ -242,6 +271,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '30',
         firstName: 'Taron',
         lastName: 'Johnson',
         position: 'CB',
@@ -250,6 +280,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '31',
         firstName: 'Maxwell',
         lastName: 'Hairston',
         position: 'CB',
@@ -260,6 +291,7 @@ const players = [
     
       // Safeties
       {
+         id: '32',
         firstName: 'Damar',
         lastName: 'Hamlin',
         position: 'S',
@@ -268,6 +300,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '33',
         firstName: 'Taylor',
         lastName: 'Rapp',
         position: 'S',
@@ -276,6 +309,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '34',
         firstName: 'Cole',
         lastName: 'Bishop',
         position: 'S',
@@ -286,6 +320,7 @@ const players = [
     
       // Special Teams
       {
+         id: '35',
         firstName: 'Tyler',
         lastName: 'Bass',
         position: 'K',
@@ -294,6 +329,7 @@ const players = [
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
+         id: '36',
         firstName: 'Jake',
         lastName: 'Camarda',
         position: 'P',
