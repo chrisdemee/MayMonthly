@@ -106,3 +106,66 @@
   0%   { transform: scale(0.6); opacity: 0; }
   100% { transform: scale(1);   opacity: 1; }
 }
+
+.transition {
+  transition: all 0.2s ease-in-out;
+}
+
+.transition:hover {
+  transform: scale(1.05);
+  background-color: #004080 !important; /* deep Bills blue */
+  color: #fff !important;
+}
+
+
+body.roster-page {
+  background-image: url('https://static.clubs.nfl.com/image/private/f_auto/bills/on3eamdyqfmyrqkd08ir');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white; 
+}
+
+body.roster-page {
+  background-image: url('https://static.clubs.nfl.com/image/private/f_auto/bills/on3eamdyqfmyrqkd08ir');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white; 
+}
+
+
+/* Applies only to the roster page cards */
+body.roster-page .card {
+  background-color: #00338D;
+  color: white; /* Ensures text is readable */
+  border: none;
+}
+
+/* Optional: Customize the buttons inside cards */
+body.roster-page .card .btn-primary {
+  background-color: #C60C30; /* Bills red for contrast */
+  border: none;
+}
+
+/* Optional: Style badge to match */
+body.roster-page .badge {
+  background-color: white;
+  color: #00338D;
+  font-weight: bold;
+}
+
+
+#modalDetailText {
+  color: #00338D;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.modal-title {
+  color: #00338D;
+  font-weight: bold;
+  font-size: 1.25rem;
+}

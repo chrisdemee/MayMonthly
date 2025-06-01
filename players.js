@@ -24,7 +24,7 @@ const players = [
         position: 'QB',
         age: 27,
         photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039034.png&w=350&h=254',
-        hiddenDetail: 'Signed as a free agent in 2024'
+        hiddenDetail: 'Texas and SMU alum with a high football IQ and quick release.'
       },
 
     {
@@ -34,7 +34,7 @@ const players = [
         position: 'RB',
         age: 25,
         photo: '/imgs/jamescook.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Younger brother of Dalvin Cook, bringing speed, vision, and breakout potential'
     }, 
     {
        id: '5',
@@ -43,7 +43,7 @@ const players = [
         position: 'RB',
         age: 25,
         photo: '/imgs/raydavis.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'SEC standout with a nose for the end zone and reliable hands.'
       },
       {
         id: '6',
@@ -52,7 +52,7 @@ const players = [
         position: 'RB',
         age: 27,
         photo: '/imgs/tyjohnson.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Shifty and explosive back, dangerous in open space.'
       },
       {
          id: '7',
@@ -61,7 +61,7 @@ const players = [
         position: 'RB',
         age: 26,
         photo: 'https://a.espncdn.com/i/headshots/nfl/players/full/4036431.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Former 3rd-round pick with blazing speed and return skills.'
       },
       {
          id: '8',
@@ -70,7 +70,7 @@ const players = [
         position: 'FB',
         age: 26,
         photo: '/imgs/reggie.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Versatile blocker and special teams ace with surprising receiving chops.'
       },
       {
          id: '9 ',
@@ -79,7 +79,7 @@ const players = [
         position: 'WR',
         age: 24,
         photo: '/imgs/khalilshakir.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Clutch slot receiver who always finds the soft spot in coverage.'
       },
       {
          id: '10',
@@ -88,7 +88,7 @@ const players = [
         position: 'WR',
         age: 25,
         photo: '/imgs/joshpalmer.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Reliable target with strong hands and sharp route-running.'
       },
       {
          id: '11',
@@ -97,7 +97,7 @@ const players = [
         position: 'WR',
         age: 25,
         photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4372414.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Crafty separator with elite quickness—dangerous after the catch.'
       },
       {
          id: '12',
@@ -106,7 +106,7 @@ const players = [
         position: 'WR',
         age: 22,
         photo: '/imgs/keon.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Big-bodied rookie WR with elite jump-ball skills and swagger.'
       },
       {
          id: '13',
@@ -115,7 +115,7 @@ const players = [
         position: 'WR',
         age: 28,
         photo: '/imgs/curt.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Offensive Swiss Army knife—WR, RB, gadget plays—you name it.'
       },
     
       // Tight Ends
@@ -126,7 +126,7 @@ const players = [
         position: 'TE',
         age: 27,
         photo: '/imgs/dawsonknox.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Fan favorite known for tough catches and tougher blocks'
       },
       {
          id: '15',
@@ -135,7 +135,7 @@ const players = [
         position: 'TE',
         age: 24,
         photo: '/imgs/dalton.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Smooth route-runner with elite receiving ability—future Pro Bowl TE.'
       },
     
       // Offensive Line
@@ -146,7 +146,7 @@ const players = [
         position: 'OL',
         age: 26,
         photo: '/imgs/connormcgovern.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Anchor of the interior line, brings toughness and leadership.'
       },
       {
          id: '17',
@@ -155,7 +155,7 @@ const players = [
         position: 'OL',
         age: 27,
         photo: '/imgs/davidedwards.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Super Bowl champion with a mean streak in the trenches.'
       },
       {
          id: '18',
@@ -164,7 +164,7 @@ const players = [
         position: 'OL',
         age: 29,
         photo: '/imgs/dion.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'The Shnowman’—elite left tackle and locker room leader.'
       },
       {
          id: '19',
@@ -173,7 +173,7 @@ const players = [
         position: 'OL',
         age: 26,
         photo: '/imgs/spencerbrown.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Massive frame with athleticism—potential star at right tackle.'
       },
       {
          id: '20',
@@ -182,7 +182,7 @@ const players = [
         position: 'OL',
         age: 23,
         photo: '/imgs/ocyrus.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'SEC powerhouse guard—brick wall in pass protection.'
       },
       // Defensive Line
       {
@@ -192,7 +192,7 @@ const players = [
         position: 'DL',
         age: 24,
         photo: '/imgs/gregrousseau.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: '6’7 with a wingspan that wrecks passing lanes—QB nightmare.'
       },
       {
          id: '22',
@@ -201,7 +201,7 @@ const players = [
         position: 'DL',
         age: 33,
         photo: '/imgs/daquanjones.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Veteran presence in the middle—clogs running lanes like a pro'
       },
       {
          id: '23',
@@ -210,7 +210,7 @@ const players = [
         position: 'DL',
         age: 27,
         photo: '/imgs/edoliver.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Relentless interior disruptor—quick burst and violent hands.'
       },
       {
          id: '24',
@@ -219,7 +219,7 @@ const players = [
         position: 'DL',
         age: 25,
         photo: '/imgs/ajepenesa.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Edge defender with growing pass-rush toolkit and motor.'
       },
       {
          id: '25',
@@ -228,7 +228,7 @@ const players = [
         position: 'DL',
         age: 29,
         photo: '/imgs/joeybosa.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'One of the NFL’s elite pass rushers—dangerous on every snap.'
       },
     
       // Linebackers
@@ -239,7 +239,7 @@ const players = [
         position: 'LB',
         age: 30,
         photo: '/imgs/mattmilano.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'All-Pro linebacker with elite instincts and sideline-to-sideline range.'
       },
       {
          id: '27',
@@ -248,7 +248,7 @@ const players = [
         position: 'LB',
         age: 23,
         photo: '/imgs/dorianwilliams.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Young LB with speed, upside, and nose for the ball.'
       },
       {
          id: '28',
@@ -257,7 +257,7 @@ const players = [
         position: 'LB',
         age: 24,
         photo: '/imgs/terrelbernard.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Breakout candidate—versatile, fast, and physical.'
       },
     
       // Cornerbacks
@@ -268,7 +268,7 @@ const players = [
         position: 'CB',
         age: 24,
         photo: '/imgs/christianbenford.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Late-round gem—physical, smart, and always around the ball.'
       },
       {
          id: '30',
@@ -277,7 +277,7 @@ const players = [
         position: 'CB',
         age: 28,
         photo: '/imgs/taronjohnson.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Top-tier nickel corner with quick feet and sharp instincts.'
       },
       {
          id: '31',
@@ -286,7 +286,7 @@ const players = [
         position: 'CB',
         age: 22,
         photo: '/imgs/maxwellhairston.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Young, rising CB with big-play potential and speed.'
       },
     
       // Safeties
@@ -297,7 +297,7 @@ const players = [
         position: 'S',
         age: 26,
         photo: '/imgs/damarhamlin.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Inspiration to millions—back from cardiac arrest with heart and grit.'
       },
       {
          id: '33',
@@ -306,7 +306,7 @@ const players = [
         position: 'S',
         age: 27,
         photo: '/imgs/taylorrapp.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Former Ram brings versatility and championship pedigree.'
       },
       {
          id: '34',
@@ -315,7 +315,7 @@ const players = [
         position: 'S',
         age: 22,
         photo: '/imgs/colebishop.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Rookie safety known for physicality and field vision.'
       },
     
       // Special Teams
@@ -326,7 +326,7 @@ const players = [
         position: 'K',
         age: 27,
         photo: '/imgs/tylerbass.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'One of the strongest legs in the league—clutch from deep.'
       },
       {
          id: '36',
@@ -335,7 +335,7 @@ const players = [
         position: 'P',
         age: 26,
         photo: '/imgs/jakecamarda.png',
-        hiddenDetail: 'Former 2nd overall pick in 2017'
+        hiddenDetail: 'Elite punter with hang time, placement, and leg strength.'
       }
       
 ]

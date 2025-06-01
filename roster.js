@@ -1,8 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
   const grid = document.getElementById('rosterGrid');
+  const detailModal = document.getElementById('detailModal');
 
   const render = list => {
-    grid.innerHTML = '';  // Clear existing content
+    grid.innerHTML = '';
 
     list.forEach(p => {
       const col = document.createElement('div');
@@ -31,7 +32,25 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   };
 
-  // Important: call render() with your players array here
+  // Attach modal event listener AFTER the DOM is ready
+  detailModal.addEventListener('show.bs.modal', function (event) {
+    const button = event.relatedTarget;
+    const playerId = button.getAttribute('data-playerid');
+
+    const player = players.find(p => p.id === playerId);
+    const modalTitle = detailModal.querySelector('.modal-title');
+    const modalBody = detailModal.querySelector('#modalDetailText');
+
+    if (player) {
+      modalTitle.textContent = `${player.firstName} ${player.lastName}`;
+      modalBody.textContent = player.hiddenDetail || 'No additional info available.';
+    } else {
+      modalTitle.textContent = 'Player Not Found';
+      modalBody.textContent = '';
+    }
+  });
+
+  // Render the players
   if (typeof players !== 'undefined' && Array.isArray(players)) {
     render(players);
   } else {
@@ -39,27 +58,3 @@ document.addEventListener('DOMContentLoaded', () => {
     console.error('players array not found or invalid');
   }
 });
-
-
-const detailModal = document.getElementById('detailModal');
-
-detailModal.addEventListener('show.bs.modal', function (event) {
-  const button = event.relatedTarget;  // Button that triggered the modal
-  const playerId = button.getAttribute('data-playerid');
-
-  const player = players.find(p => p.id === playerId);
-
-  const modalTitle = this.querySelector('.modal-title');
-  const modalBody = this.querySelector('#modalDetailText');
-
-  if (player) {
-    modalTitle.textContent = `${player.firstName} ${player.lastName}`;
-    modalBody.textContent = player.hiddenDetail || 'No additional info available.';
-  } else {
-    modalTitle.textContent = 'Player Not Found';
-    modalBody.textContent = '';
-  }
-});
-
-
-
