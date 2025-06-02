@@ -326,7 +326,7 @@ const players = [
         lastName: 'Bass',
         position: 'K',
         age: 27,
-        photo: 'imgs/tylerbass.png',
+        photo: '.imgs/tylerbass.png',
         hiddenDetail: 'One of the strongest legs in the league—clutch from deep.'
       },
       {
@@ -335,7 +335,7 @@ const players = [
         lastName: 'Camarda',
         position: 'P',
         age: 26,
-        photo: 'imgs/jakecamarda.png',
+        photo: './imgs/jakecamarda.png',
         hiddenDetail: 'Elite punter with hang time, placement, and leg strength.'
       }
       
