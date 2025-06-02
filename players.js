@@ -5,7 +5,7 @@ const players = [
         lastName: 'Allen',
         position: 'QB',
         age: 28,
-        photo: '/imgs/joshallen.png',
+        photo: 'imgs/joshallen.png',
         hiddenDetail: 'MVPPPPPPPPPPPPPPP'
     },
     {
@@ -14,7 +14,7 @@ const players = [
         lastName: 'Trubisky',
         position: 'QB',
         age: 30,
-        photo: '/imgs/mitch.png',
+        photo: 'imgs/mitch.png',
         hiddenDetail: 'Former 2nd overall pick in 2017'
       },
       {
@@ -33,7 +33,7 @@ const players = [
         lastName: 'Cook',
         position: 'RB',
         age: 25,
-        photo: '/imgs/jamescook.png',
+        photo: 'imgs/jamescook.png',
         hiddenDetail: 'Younger brother of Dalvin Cook, bringing speed, vision, and breakout potential'
     }, 
     {
@@ -42,7 +42,7 @@ const players = [
         lastName: 'Davis',
         position: 'RB',
         age: 25,
-        photo: '/imgs/raydavis.png',
+        photo: 'imgs/raydavis.png',
         hiddenDetail: 'SEC standout with a nose for the end zone and reliable hands.'
       },
       {
@@ -51,7 +51,7 @@ const players = [
         lastName: 'Johnson',
         position: 'RB',
         age: 27,
-        photo: '/imgs/tyjohnson.png',
+        photo: 'imgs/tyjohnson.png',
         hiddenDetail: 'Shifty and explosive back, dangerous in open space.'
       },
       {
@@ -69,7 +69,7 @@ const players = [
         lastName: 'Gilliam',
         position: 'FB',
         age: 26,
-        photo: '/imgs/reggie.png',
+        photo: 'imgs/reggie.png',
         hiddenDetail: 'Versatile blocker and special teams ace with surprising receiving chops.'
       },
       //wrs
@@ -79,7 +79,7 @@ const players = [
         lastName: 'Shakir',
         position: 'WR',
         age: 24,
-        photo: '/imgs/khalilshakir.png',
+        photo: 'imgs/khalilshakir.png',
         hiddenDetail: 'Clutch slot receiver who always finds the soft spot in coverage.'
       },
       {
@@ -88,7 +88,7 @@ const players = [
         lastName: 'Palmer',
         position: 'WR',
         age: 25,
-        photo: '/imgs/joshpalmer.png',
+        photo: 'imgs/joshpalmer.png',
         hiddenDetail: 'Reliable target with strong hands and sharp route-running.'
       },
       {
@@ -106,7 +106,7 @@ const players = [
         lastName: 'Coleman',
         position: 'WR',
         age: 22,
-        photo: '/imgs/keon.png',
+        photo: 'imgs/keon.png',
         hiddenDetail: 'Big-bodied rookie WR with elite jump-ball skills and swagger.'
       },
       {
@@ -115,7 +115,7 @@ const players = [
         lastName: 'Samuel',
         position: 'WR',
         age: 28,
-        photo: '/imgs/curt.png',
+        photo: 'imgs/curt.png',
         hiddenDetail: 'Offensive Swiss Army knife—WR, RB, gadget plays—you name it.'
       },
     
@@ -126,7 +126,7 @@ const players = [
         lastName: 'Knox',
         position: 'TE',
         age: 27,
-        photo: '/imgs/dawsonknox.png',
+        photo: 'imgs/dawsonknox.png',
         hiddenDetail: 'Fan favorite known for tough catches and tougher blocks'
       },
       {
@@ -135,7 +135,7 @@ const players = [
         lastName: 'Kincaid',
         position: 'TE',
         age: 24,
-        photo: '/imgs/dalton.png',
+        photo: 'imgs/dalton.png',
         hiddenDetail: 'Smooth route-runner with elite receiving ability—future Pro Bowl TE.'
       },
     
@@ -146,7 +146,7 @@ const players = [
         lastName: 'McGovern',
         position: 'OL',
         age: 26,
-        photo: '/imgs/connormcgovern.png',
+        photo: 'imgs/connormcgovern.png',
         hiddenDetail: 'Anchor of the interior line, brings toughness and leadership.'
       },
       {
@@ -155,7 +155,7 @@ const players = [
         lastName: 'Edwards',
         position: 'OL',
         age: 27,
-        photo: '/imgs/davidedwards.png',
+        photo: 'imgs/davidedwards.png',
         hiddenDetail: 'Super Bowl champion with a mean streak in the trenches.'
       },
       {
@@ -164,7 +164,7 @@ const players = [
         lastName: 'Dawkins',
         position: 'OL',
         age: 29,
-        photo: '/imgs/dion.png',
+        photo: 'imgs/dion.png',
         hiddenDetail: 'The Shnowman’—elite left tackle and locker room leader.'
       },
       {
@@ -173,7 +173,7 @@ const players = [
         lastName: 'Brown',
         position: 'OL',
         age: 26,
-        photo: '/imgs/spencerbrown.png',
+        photo: 'imgs/spencerbrown.png',
         hiddenDetail: 'Massive frame with athleticism—potential star at right tackle.'
       },
       {
@@ -182,7 +182,7 @@ const players = [
         lastName: 'Torrence',
         position: 'OL',
         age: 23,
-        photo: '/imgs/ocyrus.png',
+        photo: 'imgs/ocyrus.png',
         hiddenDetail: 'SEC powerhouse guard—brick wall in pass protection.'
       },
       // d line
@@ -192,7 +192,7 @@ const players = [
         lastName: 'Rousseau',
         position: 'DL',
         age: 24,
-        photo: '/imgs/gregrousseau.png',
+        photo: 'imgs/gregrousseau.png',
         hiddenDetail: '6’7 with a wingspan that wrecks passing lanes—QB nightmare.'
       },
       {
@@ -201,7 +201,7 @@ const players = [
         lastName: 'Jones',
         position: 'DL',
         age: 33,
-        photo: '/imgs/daquanjones.png',
+        photo: 'imgs/daquanjones.png',
         hiddenDetail: 'Veteran presence in the middle—clogs running lanes like a pro'
       },
       {
@@ -210,7 +210,7 @@ const players = [
         lastName: 'Oliver',
         position: 'DL',
         age: 27,
-        photo: '/imgs/edoliver.png',
+        photo: 'imgs/edoliver.png',
         hiddenDetail: 'Relentless interior disruptor—quick burst and violent hands.'
       },
       {
@@ -219,7 +219,7 @@ const players = [
         lastName: 'Epenesa',
         position: 'DL',
         age: 25,
-        photo: '/imgs/ajepenesa.png',
+        photo: 'imgs/ajepenesa.png',
         hiddenDetail: 'Edge defender with growing pass-rush toolkit and motor.'
       },
       {
@@ -228,7 +228,7 @@ const players = [
         lastName: 'Bosa',
         position: 'DL',
         age: 29,
-        photo: '/imgs/joeybosa.png',
+        photo: 'imgs/joeybosa.png',
         hiddenDetail: 'One of the NFL’s elite pass rushers—dangerous on every snap.'
       },
     
@@ -239,7 +239,7 @@ const players = [
         lastName: 'Milano',
         position: 'LB',
         age: 30,
-        photo: '/imgs/mattmilano.png',
+        photo: 'imgs/mattmilano.png',
         hiddenDetail: 'All-Pro linebacker with elite instincts and sideline-to-sideline range.'
       },
       {
@@ -248,7 +248,7 @@ const players = [
         lastName: 'Williams',
         position: 'LB',
         age: 23,
-        photo: '/imgs/dorianwilliams.png',
+        photo: 'imgs/dorianwilliams.png',
         hiddenDetail: 'Young LB with speed, upside, and nose for the ball.'
       },
       {
@@ -257,7 +257,7 @@ const players = [
         lastName: 'Bernard',
         position: 'LB',
         age: 24,
-        photo: '/imgs/terrelbernard.png',
+        photo: 'imgs/terrelbernard.png',
         hiddenDetail: 'Breakout candidate—versatile, fast, and physical.'
       },
     
@@ -268,7 +268,7 @@ const players = [
         lastName: 'Benford',
         position: 'CB',
         age: 24,
-        photo: '/imgs/christianbenford.png',
+        photo: 'imgs/christianbenford.png',
         hiddenDetail: 'Late-round gem—physical, smart, and always around the ball.'
       },
       {
@@ -277,7 +277,7 @@ const players = [
         lastName: 'Johnson',
         position: 'CB',
         age: 28,
-        photo: '/imgs/taronjohnson.png',
+        photo: 'imgs/taronjohnson.png',
         hiddenDetail: 'Top-tier nickel corner with quick feet and sharp instincts.'
       },
       {
@@ -286,7 +286,7 @@ const players = [
         lastName: 'Hairston',
         position: 'CB',
         age: 22,
-        photo: '/imgs/maxwellhairston.png',
+        photo: 'imgs/maxwellhairston.png',
         hiddenDetail: 'Young, rising CB with big-play potential and speed.'
       },
     
@@ -297,7 +297,7 @@ const players = [
         lastName: 'Hamlin',
         position: 'S',
         age: 26,
-        photo: '/imgs/damarhamlin.png',
+        photo: 'imgs/damarhamlin.png',
         hiddenDetail: 'Inspiration to millions—back from cardiac arrest with heart and grit.'
       },
       {
@@ -306,7 +306,7 @@ const players = [
         lastName: 'Rapp',
         position: 'S',
         age: 27,
-        photo: '/imgs/taylorrapp.png',
+        photo: 'imgs/taylorrapp.png',
         hiddenDetail: 'Former Ram brings versatility and championship pedigree.'
       },
       {
@@ -315,7 +315,7 @@ const players = [
         lastName: 'Bishop',
         position: 'S',
         age: 22,
-        photo: '/imgs/colebishop.png',
+        photo: 'imgs/colebishop.png',
         hiddenDetail: 'Rookie safety known for physicality and field vision.'
       },
     
@@ -326,7 +326,7 @@ const players = [
         lastName: 'Bass',
         position: 'K',
         age: 27,
-        photo: '/imgs/tylerbass.png',
+        photo: 'imgs/tylerbass.png',
         hiddenDetail: 'One of the strongest legs in the league—clutch from deep.'
       },
       {
@@ -335,7 +335,7 @@ const players = [
         lastName: 'Camarda',
         position: 'P',
         age: 26,
-        photo: '/imgs/jakecamarda.png',
+        photo: 'imgs/jakecamarda.png',
         hiddenDetail: 'Elite punter with hang time, placement, and leg strength.'
       }
       
