@@ -335,7 +335,7 @@ const players = [
         lastName: 'Camarda',
         position: 'P',
         age: 26,
-        photo: './imgs/jakecamarda.png',
+        photo: 'imgs/jakecamarda.png',
         hiddenDetail: 'Elite punter with hang time, placement, and leg strength.'
       }
       
