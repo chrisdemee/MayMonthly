@@ -326,7 +326,7 @@ const players = [
         lastName: 'Bass',
         position: 'K',
         age: 27,
-        photo: '.imgs/tylerbass.png',
+        photo: 'imgs/tylerbass.png',
         hiddenDetail: 'One of the strongest legs in the league—clutch from deep.'
       },
       {
