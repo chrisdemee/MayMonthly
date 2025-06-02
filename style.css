@@ -243,3 +243,13 @@ font-weight: 800;
 font-style: normal;
 color: #C60C30 !important;
 }
+
+#schedule-body {
+  font-family: "gesta", sans-serif;
+font-weight: 700;
+font-style: normal;
+
+}
+#schedule-body td {
+  color: #c60c30; /* bills red */
+}
