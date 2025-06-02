@@ -1,14 +1,18 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // container for the player cards
   const grid = document.getElementById('rosterGrid');
+  // modal element for extra player info
   const detailModal = document.getElementById('detailModal');
 
+   // function to render all player cards on the page
   const render = list => {
     grid.innerHTML = '';
 
     list.forEach(p => {
+      // makes column for each player card
       const col = document.createElement('div');
       col.className = 'col-6 col-lg-2';
-
+// puts in card HTML using player data
       col.innerHTML = `
         <div class="card h-100 shadow-sm">
           <img src="${p.photo}" class="card-img-top" alt="${p.firstName} ${p.lastName}">
@@ -32,15 +36,17 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   };
 
-  // Attach modal event listener AFTER the DOM is ready
+   // event listener to fill modal content when its triggered
   detailModal.addEventListener('show.bs.modal', function (event) {
+     // button that triggered the modal
     const button = event.relatedTarget;
+    // id of selected player
     const playerId = button.getAttribute('data-playerid');
 
-    const player = players.find(p => p.id === playerId);
+    const player = players.find(p => p.id === playerId); // looks up player data
     const modalTitle = detailModal.querySelector('.modal-title');
     const modalBody = detailModal.querySelector('#modalDetailText');
-
+// if else statement that sets modal content if player is found
     if (player) {
       modalTitle.textContent = `${player.firstName} ${player.lastName}`;
       modalBody.textContent = player.hiddenDetail || 'No additional info available.';
@@ -50,10 +56,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Render the players
+   // checks if players array is available then it renders it
   if (typeof players !== 'undefined' && Array.isArray(players)) {
     render(players);
   } else {
+    // incase of error
     grid.innerHTML = '<p class="text-danger">No player data available.</p>';
     console.error('players array not found or invalid');
   }

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>BUFFALO BILLS</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -17,10 +17,12 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/bjv0nvx.css">
     </head>
 
     <body>
 
+            
         <header>
             <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
                 <div class="container-fluid">
@@ -61,34 +63,26 @@
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
             crossorigin="anonymous"
         ></script>
+
+        <!-- landing wrapper with team logo and welcome message -->
             <div id="landing-wrapper">
         <img id="landing-logo"
             src="https://img.athleticbusiness.com/files/base/abmedia/all/image/2023/04/nfl_buffalo_bills_team_logo.642d810caa86d.png?auto=format%2Ccompress&q=70&w=400"
             alt="Bills logo"/>
         <h1 id="greeting"></h1>
     </div>
-        <script>
-        /*  greetings with wtv time of day it is with a 5 second redirect */
-        const greetings = [
-            { start: 5, end: 11, text: "Good morning BILLS MAFIA!", cls: "morning" },
-            { start: 11, end: 17, text: "Good afternoon BILLS MAFIA!", cls: "afternoon" },
-            { start: 17, end: 22, text: "Good evening BILLS MAFIA!", cls: "evening" },
-            { start: 22, end: 24, text: "Good night BILLS MAFIA!", cls: "night" },
-            { start: 0, end: 5, text: "Good night BILLS MAFIA!", cls: "night" }
-        ];
-
-        window.addEventListener("DOMContentLoaded", () => {
-            const hr = new Date().getHours();
-            const g = greetings.find(({ start, end }) => hr >= start && hr < end);
-
-            /* css class for background */
-            document.body.classList.add(g.cls);
-            document.getElementById("greeting").textContent = g.text;
-
-            /* go back to home page after 5 seconds */
-            setTimeout(() => window.location.replace("home.html"), 5000);
-        });
-      </script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        const greetingElement = document.getElementById("greeting");
+        if (greetingElement) {
+          greetingElement.textContent = "WELCOME BILLS MAFIA!";
+        }
+    
+        // go to home page after 5 seconds
+        setTimeout(() => window.location.replace("home.html"), 5000);
+      });
+    </script>
+    
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"

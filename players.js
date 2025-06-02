@@ -26,7 +26,7 @@ const players = [
         photo: 'https://a.espncdn.com/combiner/i?img=/i/headshots/nfl/players/full/4039034.png&w=350&h=254',
         hiddenDetail: 'Texas and SMU alum with a high football IQ and quick release.'
       },
-
+      //rbs
     {
        id: '4',
         firstName: 'James',
@@ -72,6 +72,7 @@ const players = [
         photo: '/imgs/reggie.png',
         hiddenDetail: 'Versatile blocker and special teams ace with surprising receiving chops.'
       },
+      //wrs
       {
          id: '9 ',
         firstName: 'Khalil',
@@ -118,7 +119,7 @@ const players = [
         hiddenDetail: 'Offensive Swiss Army knife—WR, RB, gadget plays—you name it.'
       },
     
-      // Tight Ends
+      // tight ends
       {
          id: '14',
         firstName: 'Dawson',
@@ -138,7 +139,7 @@ const players = [
         hiddenDetail: 'Smooth route-runner with elite receiving ability—future Pro Bowl TE.'
       },
     
-      // Offensive Line
+      // o line
       {
          id: '16',
         firstName: 'Connor',
@@ -184,7 +185,7 @@ const players = [
         photo: '/imgs/ocyrus.png',
         hiddenDetail: 'SEC powerhouse guard—brick wall in pass protection.'
       },
-      // Defensive Line
+      // d line
       {
          id: '21',
         firstName: 'Greg',
@@ -231,7 +232,7 @@ const players = [
         hiddenDetail: 'One of the NFL’s elite pass rushers—dangerous on every snap.'
       },
     
-      // Linebackers
+      // linebackers
       {
          id: '26',
         firstName: 'Matt',
@@ -260,7 +261,7 @@ const players = [
         hiddenDetail: 'Breakout candidate—versatile, fast, and physical.'
       },
     
-      // Cornerbacks
+      // cornerbacks
       {
          id: '29',
         firstName: 'Christian',
@@ -289,7 +290,7 @@ const players = [
         hiddenDetail: 'Young, rising CB with big-play potential and speed.'
       },
     
-      // Safeties
+      // safeties
       {
          id: '32',
         firstName: 'Damar',
@@ -318,7 +319,7 @@ const players = [
         hiddenDetail: 'Rookie safety known for physicality and field vision.'
       },
     
-      // Special Teams
+      // special teams
       {
          id: '35',
         firstName: 'Tyler',

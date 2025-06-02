@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Title</title>
+        <title>BUFFALO BILLS</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -17,9 +17,10 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.typekit.net/bjv0nvx.css">
     </head>
 
-    <body>
+    <body class="home-page">
 
         <header>
             <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
@@ -49,6 +50,33 @@
               </nav>
               
         </header>
+
+          <h1><span class="whites-bg-inline">Welcome to the Buffalo Bills Site</span></h1>
+          <h2 class="text-primary"><span class="whiter-bg-inline">About the Team</span></h2>
+          <p><span class="white-bg-inline">The Buffalo Bills were established in 1960 as a charter member of the American Football League (AFL). They joined the NFL in the AFL-NFL merger of 1970.</span></p>
+          <p><span class="white-bg-inline">They are the only team to play home games in New York State (in Orchard Park, near Buffalo).</span></p>
+          <p><span class="white-bg-inline">The Bills are 4 time AFC champions and were known for the “K-Gun” offense with Jim Kelly and Thurman Thomas.</span></p>
+          <p><span class="white-bg-inline">Bills fans are some of the most loyal (and rowdiest) in all of football</span></p>
+
+           <!-- Button to go to the roster page -->
+          <div class="text-center mt-5 pt-5">
+            <a href="roster.html" class="btn-bills">View Roster</a>
+          </div>
+
+          <div class="text-center mt-5" style="margin-top: 700px;">
+            <img src="https://static.clubs.nfl.com/image/upload/t_editorial_landscape_12_desktop/bills/deyxjaaymk913c3brqe2" 
+                 alt="Buffalo Bills Logo" 
+                 style="width: 300px; max-width: 100%;">
+          </div>
+          
+          
+
+        <!--theme plays when page loads-->
+          <audio id="foxTheme" autoplay>
+            <source src="foxtheme.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
         <main class="container">
             <div id="rosterGrid" class="row g-3"></div>
 

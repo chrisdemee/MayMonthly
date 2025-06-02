@@ -1,3 +1,5 @@
+// array to show the 2025 schedule
+
 const schedule = [
   { week: 1, opponent: "Baltimore Ravens", date: "09-07-2025", location: "Home" },
   { week: 2, opponent: "New York Jets", date: "09-14-2025", location: "Away" },
@@ -18,19 +20,20 @@ const schedule = [
   { week: 17, opponent: "Philadelphia Eagles", date: "12-28-2025", location: "Home" },
   { week: 18, opponent: "New York Jets", date: "TBD", location: "Home" },
 ];
-
+// function that creates the schedule table rows and adds them to the html
 function renderSchedule() {
+  // gets the tbody element
   const tableBody = document.getElementById("schedule-body");
   tableBody.innerHTML = "";
-
+// loops through each game in the schedule array
   schedule.forEach((game, index) => {
     const tr = document.createElement("tr");
 
-    // Alternate row color: even = red, odd = blue
+    // attempted row colors: even = red, odd = blue
    const rowClass = index % 2 === 0 ? "red-row" : "blue-row";
 
     tr.className = rowClass;
-
+// makes row html using date formatting values
     tr.innerHTML = `
       <td>Week ${game.week}</td>
       <td>${game.opponent}</td>
@@ -42,5 +45,5 @@ function renderSchedule() {
   });
 }
 
-
+// runs the render function only after the full html has loaded
 document.addEventListener("DOMContentLoaded", renderSchedule);

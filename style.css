@@ -74,17 +74,9 @@
     animation-name: bounce-animation;
     animation-duration: 2s;
   }
-.red-row {
-  background-color: #d9534f !important; /* red */
-  color: white !important;
-}
 
-.blue-row {
-  background-color: #0275d8 !important; /* blue */
-  color: white !important;
-}
+  
 
-/* Flex‑center wrapper */
 #landing-wrapper {
   display: flex;
   flex-direction: column;
@@ -95,11 +87,11 @@
   min-height: 100vh;
 }
 
-/* Logo pop‑in */
+/*really liked animstion with the logo */
 #landing-logo {
   width: clamp(120px, 25vw, 240px);
   height: auto;
-  animation: popIn 0.9s ease-out;
+  animation: popIn 3.0s ease-out;
 }
 
 @keyframes popIn {
@@ -113,7 +105,7 @@
 
 .transition:hover {
   transform: scale(1.05);
-  background-color: #004080 !important; /* deep Bills blue */
+  background-color: #004080 !important; 
   color: #fff !important;
 }
 
@@ -127,8 +119,8 @@ body.roster-page {
   color: white; 
 }
 
-body.roster-page {
-  background-image: url('https://static.clubs.nfl.com/image/private/f_auto/bills/on3eamdyqfmyrqkd08ir');
+body.home-page {
+  background-image: url('https://images5.alphacoders.com/132/thumb-1920-1327406.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -137,20 +129,19 @@ body.roster-page {
 }
 
 
-/* Applies only to the roster page cards */
 body.roster-page .card {
   background-color: #00338D;
-  color: white; /* Ensures text is readable */
+  color: white; 
   border: none;
 }
 
-/* Optional: Customize the buttons inside cards */
+
 body.roster-page .card .btn-primary {
-  background-color: #C60C30; /* Bills red for contrast */
+  background-color: #C60C30; 
   border: none;
 }
 
-/* Optional: Style badge to match */
+
 body.roster-page .badge {
   background-color: white;
   color: #00338D;
@@ -168,4 +159,87 @@ body.roster-page .badge {
   color: #00338D;
   font-weight: bold;
   font-size: 1.25rem;
+}
+
+body.roster-page .card .text-muted {
+  color: #C60C30 !important;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: "acier-bat-gris", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-family: "rooney-web", serif;
+font-weight: 800;
+font-style: normal;
+color: #C60C30 !important;
+}
+
+.white-bg-inline {
+  background-color: white;
+  display: inline; 
+  padding: 4px 6px;
+  border-radius: 4px; 
+  font-family: "rooney-web", serif;
+font-weight: 800;
+font-style: normal;
+color: #C60C30 !important;
+}
+p {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-family: "rooney-web", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+.btn-bills {
+  background-color: #C60C30;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-bills:hover {
+  background-color: #a60a27;
+}
+
+
+body.schedule-page {
+  background-image: url('https://npr.brightspotcdn.com/dims4/default/7a42e32/2147483647/strip/true/crop/2908x1941+0+0/resize/880x587!/quality/90/?url=http%3A%2F%2Fnpr-brightspot.s3.amazonaws.com%2Fee%2F20%2Fba385a5748c486c63186971ad6bf%2Fpatriots-bills-football-24357842891311.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white; 
+}
+.whiter-bg-inline {
+  background-color: white;
+  display: inline; 
+  padding: 4px 6px;
+  border-radius: 4px; 
+  font-family: "rooney-web", serif;
+font-weight: 800;
+color: #00338D; !important; 
+}
+                  
+.whites-bg-inline {
+  background-color: white;
+  display: inline; 
+  padding: 4px 6px;
+  border-radius: 4px; 
+  font-family: "rooney-web", serif;
+font-weight: 800;
+font-style: normal;
+color: #C60C30 !important;
 }
